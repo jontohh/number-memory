@@ -1,0 +1,39 @@
+.numberMemoryContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.title {
+    font-size: 2em;
+    color: #333;
+}
+
+.numberInputContainer,
+.numberDisplayContainer {
+    margin-top: 20px;
+}
+
+.memoryButton {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #0070f3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.memoryButton:hover {
+    background-color: #0051bb;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #0070f3;
+}

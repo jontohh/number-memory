@@ -1,0 +1,19 @@
+{
+  "name": "number-memory-app",
+  "version": "1.0.0",
+  "description": "A number memory game built with Next.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": ["nextjs", "react", "memory", "game"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "10.0.3",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  }
+}
